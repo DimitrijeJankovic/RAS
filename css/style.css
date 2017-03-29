@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    padding-top: 50px;
+    z-index: -1;
+}
+h2{
+    color: white;
+    margin-top: 620px;
+    margin-left: -1100px;
+   
+}
+
+button{
+/*    float: right;*/
+    margin-top: 5px;
+}
+.dugmeK{
+    margin-bottom: -5px;
+}
+
+footer{
+    width: 100%;
+    background-color: #222;
+    padding: 25px 0px;
+}
+footer nac{
+    float: left;
+}
+footer nav ul{
+    margin-left: -800px;
+}
+footer nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+}
+footer nav ul li a{
+    font-family: Lato;
+    font-weight: 400px;
+    font-size: 13px;
+    color: white;
+    
+}
+footer nav ul li a:hover{color: orange;}
+
+.form-group > label{
+    color: white;
+}
